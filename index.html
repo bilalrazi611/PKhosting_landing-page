@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Compare PK Hosting shared web hosting plans in Pakistan.">
+  <title>Web Hosting Pricing | PK Hosting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline">QUALITY-CRAFTED WEB HOSTING <span>●</span> MADE FOR PAKISTAN</div>
+  <header class="header">
+    <a class="logo" href="https://www.pkhosting.com/"><b>PK<span>.</span></b><strong>HOSTING<small>QUALITY-CRAFTED HOSTING</small></strong></a>
+    <button class="menu" id="menu" aria-label="Open menu">☰</button>
+    <nav id="nav"><a href="#plans">Hosting plans</a><a href="#compare">Compare</a><a href="#why">Why PK Hosting</a><a href="#faq">FAQs</a></nav>
+    <a class="nav-cta" href="https://www.pkhosting.com/hosting/">View hosting <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> HOST YOUR NEXT BIG IDEA</div>
+        <h1>Your website.<br><em>Your next chapter.</em></h1>
+        <p>Practical web hosting, clear plan details and a local team that treats your website as its own. Find the right home for your online presence.</p>
+        <div class="hero-checks"><span>✓ SSD storage</span><span>✓ Daily backups</span><span>✓ Local support</span></div>
+        <a class="hero-link" href="#plans">Explore hosting plans <b>↓</b></a>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit1"></div><div class="orbit orbit2"></div>
+        <div class="server">
+          <div class="server-head"><b>PK.</b><span><i></i> HOSTING ONLINE</span></div>
+          <div class="server-core"><div class="cube"><i></i><i></i><i></i></div></div>
+          <div class="server-foot">A solid foundation for your website <b>↗</b></div>
+        </div>
+        <div class="float-card fc1"><b>✳</b><span>Daily backups<small>Included in hosting plans</small></span></div>
+        <div class="float-card fc2"><b>↗</b><span>Ready to grow<small>Plans for every stage</small></span></div>
+      </div>
+      <div class="hero-bottom">HOSTING EXPERIENCE SINCE 2010 <span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="pricing" id="plans">
+      <div class="section-intro">
+        <div class="eyebrow dark"><i></i> SIMPLE, CLEAR PRICING</div>
+        <h2>Find your fit.<br><em>Then grow from there.</em></h2>
+        <p>Compare our shared hosting plans and choose the billing term that works for you.</p>
+      </div>
+      <div class="billing-wrap">
+        <div class="billing" role="group" aria-label="Billing term">
+          <button class="term active" data-term="monthly" aria-pressed="true">Monthly</button>
+          <button class="term" data-term="annually" aria-pressed="false">Annually <small>SAVE UP TO 16%</small></button>
+        </div>
+        <p>Transparent plan details. No guesswork.</p>
+      </div>
+      <div class="promo">
+        <div class="promo-copy"><b class="percent">%</b><span><strong>Got a promo code?</strong><small>Enter your code to preview a discount.</small></span></div>
+        <form id="promoForm"><label class="sr-only" for="promo">Promo code</label><input id="promo" placeholder="Enter promo code" autocomplete="off"><button>Apply code <b>→</b></button></form>
+        <div id="promoMessage" class="promo-message" aria-live="polite">Demo code: <b>WELCOME10</b> gives 10% off displayed prices.</div>
+      </div>
+      <div class="cards" id="cards"></div>
+      <p class="note">Prices and inclusions are based on the public PK Hosting hosting/pricing pages checked for this implementation. Prices may change; current checkout and published terms take precedence. Promo-code handling on this page is a front-end demo and is not connected to PK Hosting billing.</p>
+    </section>
+
+    <section class="why" id="why">
+      <div class="why-heading"><div class="eyebrow"><i></i> THE PK HOSTING APPROACH</div><h2>Hosting that feels<br><em>straightforward.</em></h2></div>
+      <article><small>01</small><b>SSD storage</b><p>Shared hosting runs on SSD storage with a managed stack to keep websites responsive.</p></article>
+      <article><small>02</small><b>Daily backups</b><p>Daily copies are included, with retention varying by plan. Review the backup policy for details.</p></article>
+      <article><small>03</small><b>Real local support</b><p>Reach the PK Hosting team through phone, email and dashboard support tickets.</p></article>
+    </section>
+
+    <section class="comparison" id="compare">
+      <div class="compare-head"><div><div class="eyebrow dark"><i></i> SIDE BY SIDE</div><h2>Compare the <em>details.</em></h2></div><p>One plan data source powers both the pricing cards and this comparison table.</p></div>
+      <div class="table-scroll"><table><thead id="tableHead"></thead><tbody id="tableBody"></tbody></table></div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div><div class="eyebrow dark"><i></i> GOOD TO KNOW</div><h2>Questions,<br><em>answered.</em></h2><p>Need help choosing a plan? Here are a few useful details.</p></div>
+      <div class="faq-list">
+        <details><summary>Can I change my billing term later?<b>＋</b></summary><p>Available changes depend on your service and account. Contact PK Hosting before renewal to confirm the options for your package.</p></details>
+        <details><summary>What is included in the plans?<b>＋</b></summary><p>All three shared hosting plans include free migration, SSL, SSD storage, email accounts, daily backups and access to the PK Hosting dashboard. Specific limits vary by plan.</p></details>
+        <details><summary>Does the promo code apply at checkout?<b>＋</b></summary><p>The promo code field on this landing page demonstrates front-end interaction only. It does not validate or apply a discount in the live billing system.</p></details>
+        <details><summary>Where can I place an order?<b>＋</b></summary><p>Use the plan buttons to visit PK Hosting's official hosting page and continue through its current ordering process.</p></details>
+      </div>
+    </section>
+    <section class="closing"><div><div class="eyebrow"><i></i> READY WHEN YOU ARE</div><h2>Let's get your website<br><em>moving forward.</em></h2></div><a href="https://www.pkhosting.com/hosting/">Explore PK Hosting <b>↗</b></a><span class="watermark">PK.</span></section>
+  </main>
+  <footer><a class="logo" href="https://www.pkhosting.com/"><b>PK<span>.</span></b><strong>HOSTING<small>QUALITY-CRAFTED HOSTING</small></strong></a><p>© <span id="year"></span> PK Hosting · A product of TechAbout (Private) Limited.</p><a href="https://www.pkhosting.com/">pkhosting.com ↗</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
